@@ -101,39 +101,39 @@ $endif$
   $endif$
 </div>
 
-$if(data-entry.project)$
+$if(project)$
 <div>
   <div class="quarto-title-meta-heading">PROJECT</div>
   <div class="quarto-title-meta-contents" style="margin-left:30px;">
-  <p><b>$data-entry.project.title$</b></p>
-  $if(data-entry.project.doi)$<p><span class="quarto-title-meta-heading">DOI</span> $data-entry.project.doi$</p>$endif$
-  $if(data-entry.project.url)$<p><span class="quarto-title-meta-heading">URL</span> $data-entry.project.url$</p>$endif$
+  <p><b>$project.title$</b></p>
+  $if(project.doi)$<p><span class="quarto-title-meta-heading">DOI</span> $project.doi$</p>$endif$
+  $if(project.url)$<p><span class="quarto-title-meta-heading">URL</span> $project.url$</p>$endif$
   </div>
 </div>
 $endif$
 
-$if(data-entry.compendium)$
+$if(compendium)$
 <div>
   <div class="quarto-title-meta-heading">COMPENDIUM</div>
   <div class="quarto-title-meta-contents" style="margin-left:30px;">
-  $if(data-entry.compendium.title)$<p><br>$data-entry.compendium.title$</b></p>$endif$
-  $if(data-entry.compendium.doi)$<p><span class="quarto-title-meta-heading">DOI</span> <a href="https://doi.org/$data-entry.compendium.doi$">$data-entry.compendium.doi$</a></p>$endif$
-  $if(data-entry.compendium.url)$<p><span class="quarto-title-meta-heading">URL</span> <a href="$data-entry.compendium.url$">$data-entry.compendium.url$</a></p>$endif$
+  $if(compendium.title)$<p><br>$compendium.title$</b></p>$endif$
+  $if(compendium.doi)$<p><span class="quarto-title-meta-heading">DOI</span> <a href="https://doi.org/$compendium.doi$">$compendium.doi$</a></p>$endif$
+  $if(compendium.url)$<p><span class="quarto-title-meta-heading">URL</span> <a href="$compendium.url$">$compendium.url$</a></p>$endif$
   </div>
 </div>
 $endif$
 
-$if(data-entry.publication)$
+$if(publication)$
 <div>
   <div class="quarto-title-meta-heading">PUBLICATION</div>
   <div class="quarto-title-meta-contents" style="margin-left:30px;">
-  $if(data-entry.publication.title)$<p><em>$data-entry.publication.title$</em></p>$endif$
-  $if(data-entry.publication.doi)$<p><span class="quarto-title-meta-heading">DOI</span> <a href="https://doi.org/$data-entry.publication.doi$">$data-entry.publication.doi$</a></p>$endif$
-  $if(data-entry.publication.abstract)$
+  $if(publication.title)$<p><em>$publication.title$</em></p>$endif$
+  $if(publication.doi)$<p><span class="quarto-title-meta-heading">DOI</span> <a href="https://doi.org/$publication.doi$">$publication.doi$</a></p>$endif$
+  $if(publication.abstract)$
 <div>
   <div class="abstract">
     <div class="block-title">$labels.abstract$</div>
-    $data-entry.publication.abstract$
+    $publication.abstract$
   </div>
 </div>
 $endif$
