@@ -1,14 +1,22 @@
 ---
+format: 
+  html:
+    template-partials: /assets/partials/title-metadata.html
 title: "Formant trajectories in Italian and Polish"
 author: "Stefano Coretta"
 year: 2018
-doi: "10.17605/OSF.IO/8ZHKU"
-url: "https://osf.io/8zhku/"
+url: "https://osf.io/e3ykx"
 languages: ["Italian", "Polish"]
-population: ["Italian", "Polish"]
+populations: ["Italian", "Polish"]
+data-entry:
+  project:
+    title: "Vowel duration and consonant voicing: A production study"
+  compendium:
+    doi: "10.17605/OSF.IO/W92ME"
+    url: "https://osf.io/w92me/"
 ---
 
-## Description
+## Variables
 
 `speaker`
 
@@ -92,4 +100,5 @@ population: ["Italian", "Polish"]
 
 `c2_place`
 
-:   place of C2 (`coronal`, `velar``)
+:   place of C2 (`coronal`, \`velar\`\`)
+
