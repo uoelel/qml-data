@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  execute-dir: project
+  render:
+    - "*.qmd"
+    - "!data/prep-data.qmd"
+  resources:
+    - "data/"
+    - "data.zip"
+
+website:
+  title: "QML Data"
+  favicon: assets/img/favicon.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    df-print: paged
+    number-sections: true
+
+callout-icon: false
+
+editor: visual
+

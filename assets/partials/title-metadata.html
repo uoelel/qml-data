@@ -1,0 +1,160 @@
+$if(by-affiliation/first)$
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">$labels.authors$</div>
+  <div class="quarto-title-meta-heading">$labels.affiliations$</div>
+
+  $for(by-author)$
+  <div class="quarto-title-meta-contents">
+    <p class="author">$_title-meta-author.html()$</p>
+  </div>
+  <div class="quarto-title-meta-contents">
+    $for(by-author.affiliations)$
+    <p class="affiliation">
+      $if(it.url)$
+      <a href="$it.url$">
+      $endif$
+      $it.name$
+      $if(it.url)$
+      </a>
+      $endif$
+    </p>
+    $endfor$
+  </div>
+  $endfor$
+</div>
+$endif$
+
+<div class="quarto-title-meta">
+
+  $if(by-affiliation)$
+  $elseif(by-author)$
+  <div>
+    <div class="quarto-title-meta-heading">$labels.authors$</div>
+    <div class="quarto-title-meta-contents">
+      $for(by-author)$
+       <p>$_title-meta-author.html()$</p>
+      $endfor$
+    </div>
+  </div>
+  $endif$
+
+  $if(date)$
+  <div>
+    <div class="quarto-title-meta-heading">$labels.published$</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">$date$</p>
+    </div>
+  </div>
+  $endif$
+
+  $if(date-modified)$
+  <div>
+    <div class="quarto-title-meta-heading">$labels.modified$</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">$date-modified$</p>
+    </div>
+  </div>
+  $endif$
+
+  $if(doi)$
+  <div>
+    <div class="quarto-title-meta-heading">$labels.doi$</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/$doi$">$doi$</a>
+      </p>
+    </div>
+  </div>
+  $endif$
+
+  $if(url)$
+  <div>
+    <div class="quarto-title-meta-heading">FILE URL</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="$url$">$url$</a>
+      </p>
+    </div>
+  </div>
+  $endif$
+
+  $if(languages)$
+  <div>
+    <div class="quarto-title-meta-heading">LANGUAGES</div>
+    <div class="quarto-title-meta-contents">
+      <p>
+      $for(languages)$$it$$sep$, $endfor$
+      </p>
+    </div>
+  </div>
+  $endif$
+
+  $if(populations)$
+  <div>
+    <div class="quarto-title-meta-heading">POPULATIONS</div>
+    <div class="quarto-title-meta-contents">
+      <p>
+        $for(populations)$$it$$sep$, $endfor$
+      </p>
+    </div>
+  </div>
+  $endif$
+</div>
+
+$if(data-entry.project)$
+<div>
+  <div class="quarto-title-meta-heading">PROJECT</div>
+  <div class="quarto-title-meta-contents" style="margin-left:30px;">
+  <p><b>$data-entry.project.title$</b></p>
+  $if(data-entry.project.doi)$<p><span class="quarto-title-meta-heading">DOI</span> $data-entry.project.doi$</p>$endif$
+  $if(data-entry.project.url)$<p><span class="quarto-title-meta-heading">URL</span> $data-entry.project.url$</p>$endif$
+  </div>
+</div>
+$endif$
+
+$if(data-entry.compendium)$
+<div>
+  <div class="quarto-title-meta-heading">COMPENDIUM</div>
+  <div class="quarto-title-meta-contents" style="margin-left:30px;">
+  $if(data-entry.compendium.title)$<p><br>$data-entry.compendium.title$</b></p>$endif$
+  $if(data-entry.compendium.doi)$<p><span class="quarto-title-meta-heading">DOI</span> <a href="https://doi.org/$data-entry.compendium.doi$">$data-entry.compendium.doi$</a></p>$endif$
+  $if(data-entry.compendium.url)$<p><span class="quarto-title-meta-heading">URL</span> <a href="$data-entry.compendium.url$">$data-entry.compendium.url$</a></p>$endif$
+  </div>
+</div>
+$endif$
+
+$if(data-entry.publication)$
+<div>
+  <div class="quarto-title-meta-heading">PUBLICATION</div>
+  <div class="quarto-title-meta-contents" style="margin-left:30px;">
+  $if(data-entry.publication.title)$<p><em>$data-entry.publication.title$</em></p>$endif$
+  $if(data-entry.publication.doi)$<p><span class="quarto-title-meta-heading">DOI</span> <a href="https://doi.org/$data-entry.publication.doi$">$data-entry.publication.doi$</a></p>$endif$
+  $if(data-entry.publication.abstract)$
+<div>
+  <div class="abstract">
+    <div class="block-title">$labels.abstract$</div>
+    $data-entry.publication.abstract$
+  </div>
+</div>
+$endif$
+  </div>
+</div>
+$endif$
+
+$if(abstract)$
+<div>
+  <div class="abstract">
+    <div class="block-title">$labels.abstract$</div>
+    $abstract$
+  </div>
+</div>
+$endif$
+
+$if(keywords)$
+<div>
+  <div class="keywords">
+    <div class="block-title">$labels.keywords$</div>
+    <p>$for(keywords)$$it$$sep$, $endfor$</p>
+  </div>
+</div>
+$endif$
