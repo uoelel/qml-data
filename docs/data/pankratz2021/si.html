@@ -106,8 +106,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#variables" id="toc-variables" class="nav-link active" data-scroll-target="#variables"><span class="header-section-number">1</span> Variables</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,8 +158,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="variables" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="variables"><span class="header-section-number">1</span> Variables</h2>
+<dl>
+<dt><code>weak_adj</code></dt>
+<dd>
+<p>The weaker adjective on the tested scale (paired with the stronger adjective in <code>strong_adj</code>).</p>
+</dd>
+<dt><code>strong_adj</code></dt>
+<dd>
+<p>The stronger adjective on the tested scale (paired with the weaker adjective in <code>weak_adj</code>).</p>
+</dd>
+<dt><code>SI</code></dt>
+<dd>
+<p>Whether or not a participant made a scalar inference for the pair of adjectives in <code>weak_adj</code> and <code>strong_adj</code> (<code>no_scalar</code> if no, <code>scalar</code> if yes).</p>
+</dd>
+<dt><code>freq</code></dt>
+<dd>
+<p>How frequently the <code>weak_adj</code> co-occurred with a stronger adjective on the same scale in a large corpus.</p>
+</dd>
+<dt><code>semdist</code></dt>
+<dd>
+<p>A measure of the semantic distance between <code>weak_adj</code> and <code>strong_adj</code>. A negative score indicates that the words are semantically closer; a positive score indicates that the words are semantically more distant (the units are arbitrary).</p>
+</dd>
+</dl>
+<p><code>weak_pol</code></p>
+<p>:</p>
+<p><code>bounded</code></p>
+<p>:</p>
+<p><code>extreme</code></p>
+<p>:</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
