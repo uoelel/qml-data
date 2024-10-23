@@ -110,8 +110,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#variables" id="toc-variables" class="nav-link active" data-scroll-target="#variables"><span class="header-section-number">1</span> Variables</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -160,8 +166,57 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="variables" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="variables"><span class="header-section-number">1</span> Variables</h2>
+<dl>
+<dt><code>dyad</code></dt>
+<dd>
+<p>Mother/infant dyad ID.</p>
+</dd>
+<dt><code>background</code></dt>
+<dd>
+<p>Infant cultural background (<code>English</code>, <code>Bengali</code>, <code>Cantonese</code>).</p>
+</dd>
+<dt><code>months</code></dt>
+<dd>
+<p>Infant’s age in months.</p>
+</dd>
+<dt><code>task</code></dt>
+<dd>
+<p>Laboratory task (<code>five</code>: five minute play, <code>tp1</code>: object gallery 1, <code>tp2</code>: object gallery 2).</p>
+</dd>
+<dt><code>gesture</code></dt>
+<dd>
+<p>Gesture type (<code>reach</code>: reach out with open hand, <code>point</code>: index-finger pointing, <code>ho_gv</code>: object hold-out and give object to parent).</p>
+</dd>
+<dt><code>count_raw</code></dt>
+<dd>
+<p>Raw gesture count.</p>
+</dd>
+<dt><code>count</code></dt>
+<dd>
+<p>Gesture count (if <code>pro_rata == "yes"</code>, pro-rata count when task ended before allotted time).</p>
+</dd>
+<dt><code>ct_raw</code></dt>
+<dd>
+<p>Raw mother’s contingent talk count.</p>
+</dd>
+<dt><code>ct</code></dt>
+<dd>
+<p>Mother’s contingent talk count (if <code>pro_rata == "yes"</code>, pro-rata count when task ended before allotted time).</p>
+</dd>
+<dt><code>pro_rata</code></dt>
+<dd>
+<p>Whether a pro-rata adjustment was applied in case the task ended before the alloted time.</p>
+</dd>
+<dt><code>id</code></dt>
+<dd>
+<p>Unique numeric ID.</p>
+</dd>
+</dl>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

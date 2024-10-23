@@ -187,5 +187,19 @@
     "title": "Massive Auditory Lexical Decision 1.1",
     "section": "",
     "text": "Subject\n\nSubject unique identifier.\n\nItem\n\nWord.\n\nIsWord\n\nWhether it is a real word or a nonce word.\n\nPhonLev\n\nMean phoneme-level Levenshtein distance.\n\nRT\n\nReaction times (ms).\n\nACC\n\nAccuracy of lexical decision.\n\nRT_log\n\nLogged reaction times."
+  },
+  {
+    "objectID": "data/cameron2020/gestures.html",
+    "href": "data/cameron2020/gestures.html",
+    "title": "A Cross-Cultural Analysis of Early Prelinguistic Gesture Development and Its Relationship to Language Development",
+    "section": "",
+    "text": "dyad\n\nMother/infant dyad ID.\n\nbackground\n\nInfant cultural background (English, Bengali, Cantonese).\n\nmonths\n\nInfant’s age in months.\n\ntask\n\nLaboratory task (five: five minute play, tp1: object gallery 1, tp2: object gallery 2).\n\ngesture\n\nGesture type (reach: reach out with open hand, point: index-finger pointing, ho_gv: object hold-out and give object to parent).\n\ncount_raw\n\nRaw gesture count.\n\ncount\n\nGesture count (if pro_rata == \"yes\", pro-rata count when task ended before allotted time).\n\nct_raw\n\nRaw mother’s contingent talk count.\n\nct\n\nMother’s contingent talk count (if pro_rata == \"yes\", pro-rata count when task ended before allotted time).\n\npro_rata\n\nWhether a pro-rata adjustment was applied in case the task ended before the alloted time.\n\nid\n\nUnique numeric ID."
+  },
+  {
+    "objectID": "data/cameron2020/gestures.html#variables",
+    "href": "data/cameron2020/gestures.html#variables",
+    "title": "A Cross-Cultural Analysis of Early Prelinguistic Gesture Development and Its Relationship to Language Development",
+    "section": "",
+    "text": "dyad\n\nMother/infant dyad ID.\n\nbackground\n\nInfant cultural background (English, Bengali, Cantonese).\n\nmonths\n\nInfant’s age in months.\n\ntask\n\nLaboratory task (five: five minute play, tp1: object gallery 1, tp2: object gallery 2).\n\ngesture\n\nGesture type (reach: reach out with open hand, point: index-finger pointing, ho_gv: object hold-out and give object to parent).\n\ncount_raw\n\nRaw gesture count.\n\ncount\n\nGesture count (if pro_rata == \"yes\", pro-rata count when task ended before allotted time).\n\nct_raw\n\nRaw mother’s contingent talk count.\n\nct\n\nMother’s contingent talk count (if pro_rata == \"yes\", pro-rata count when task ended before allotted time).\n\npro_rata\n\nWhether a pro-rata adjustment was applied in case the task ended before the alloted time.\n\nid\n\nUnique numeric ID."
   }
 ]
