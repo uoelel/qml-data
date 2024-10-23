@@ -6,10 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Elizabeth Pankratz">
-<meta name="author" content="Bob van Tiel">
+<meta name="author" content="Stefano Coretta">
+<meta name="author" content="Josiane Riverin-Coutlée">
+<meta name="author" content="Enkeleida Kapia">
+<meta name="author" content="Stephen Nichols">
 
-<title>The role of relevance for scalar diversity – QML Data</title>
+<title>Albanian formant data – QML Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -120,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The role of relevance for scalar diversity</h1>
+<h1 class="title">Albanian formant data</h1>
 </div>
 
 
@@ -130,29 +132,54 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Elizabeth Pankratz </p>
-             <p>Bob van Tiel </p>
+             <p>Stefano Coretta </p>
+             <p>Josiane Riverin-Coutlée </p>
+             <p>Enkeleida Kapia </p>
+             <p>Stephen Nichols </p>
           </div>
   </div>
-    
   
-    
+  
+  
+  
+  
     <div>
-    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-heading">LANGUAGES</div>
     <div class="quarto-title-meta-contents">
-      <p class="doi">
-        <a href="https://doi.org/10.1017/langcog.2021.13">10.1017/langcog.2021.13</a>
+      <p>
+      Northern Tosk Albanian
       </p>
     </div>
   </div>
-  </div>
   
+  </div>
+
 <div>
-  <div class="abstract">
-    <div class="block-title">Abstract</div>
-    <p>Scalar inferences occur when a weaker statement like <em>It’s warm</em> is used when a stronger one like <em>It’s hot</em> could have been used instead, resulting in the inference that whoever produced the weaker statement believes that the stronger statement does not hold. The rate at which this inference is drawn varies across scalar words, a result termed ‘scalar diversity’. Here, we study scalar diversity in adjectival scalar words from a usage-based perspective. We introduce novel operationalisations of several previously observed predictors of scalar diversity using computational tools based on usage data, allowing us to move away from existing judgment-based methods. In addition, we show in two experiments that, above and beyond these previously observed predictors, scalar diversity is predicted in part by the relevance of the scalar inference at hand. We introduce a corpus-based measure of relevance based on the idea that scalar inferences that are more relevant are more likely to occur in scalar constructions that draw an explicit contrast between scalar words (e.g., <em>It’s warm but not hot</em>). We conclude that usage has an important role to play in the establishment of common ground, a requirement for pragmatic inferencing.</p>
+  <div class="quarto-title-meta-heading">PROJECT</div>
+  <div class="quarto-title-meta-contents" style="margin-left:30px;">
+  <p><b>IPA Illustration of Northern Tosk Albanian</b></p>
+  
+  
   </div>
 </div>
+
+<div>
+  <div class="quarto-title-meta-heading">COMPENDIUM</div>
+  <div class="quarto-title-meta-contents" style="margin-left:30px;">
+  
+  <p><span class="quarto-title-meta-heading">DOI</span> <a href="https://doi.org/10.17605/OSF.IO/VRY3H">10.17605/OSF.IO/VRY3H</a></p>
+  <p><span class="quarto-title-meta-heading">URL</span> <a href="https://osf.io/vry3h/">https://osf.io/vry3h/</a></p>
+  </div>
+</div>
+
+<div>
+  <div class="quarto-title-meta-heading">PUBLICATION</div>
+  <div class="quarto-title-meta-contents" style="margin-left:30px;">
+  <p><em>Northern Tosk Albanian</em></p>
+  <p><span class="quarto-title-meta-heading">DOI</span> <a href="https://doi.org/10.1017/S0025100322000044">10.1017/S0025100322000044</a></p>
+    </div>
+</div>
+
 
 
 </header>
@@ -161,37 +188,89 @@ ul.task-list li input[type="checkbox"] {
 <section id="variables" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="variables"><span class="header-section-number">1</span> Variables</h2>
 <dl>
-<dt><code>weak_adj</code></dt>
+<dt><code>speaker</code></dt>
 <dd>
-<p>The weaker adjective on the tested scale (paired with the stronger adjective in <code>strong_adj</code>).</p>
+<p>Speaker’s ID.</p>
 </dd>
-<dt><code>strong_adj</code></dt>
+<dt><code>gender</code></dt>
 <dd>
-<p>The stronger adjective on the tested scale (paired with the weaker adjective in <code>weak_adj</code>).</p>
+<p>Speaker’s gender.</p>
 </dd>
-<dt><code>SI</code></dt>
+<dt><code>labels</code></dt>
 <dd>
-<p>Whether or not a participant made a scalar inference for the pair of adjectives in <code>weak_adj</code> and <code>strong_adj</code> (<code>no_scalar</code> if no, <code>scalar</code> if yes).</p>
+<p>SAMPA label.</p>
 </dd>
-<dt><code>freq</code></dt>
+<dt><code>word</code></dt>
 <dd>
-<p>How frequently the <code>weak_adj</code> co-occurred with a stronger adjective on the same scale in a large corpus.</p>
+<p>Word with the target vowel.</p>
 </dd>
-<dt><code>semdist</code></dt>
+<dt><code>bundle</code></dt>
 <dd>
-<p>A measure of the semantic distance between <code>weak_adj</code> and <code>strong_adj</code>. A negative score indicates that the words are semantically closer; a positive score indicates that the words are semantically more distant (the units are arbitrary).</p>
+<p>Recording file ID.</p>
 </dd>
-<dt><code>weak_pol</code></dt>
+<dt><code>F1</code></dt>
 <dd>
-<p>A continuous measure of a weak adjective’s polarity; Principle Component 1 in a Principle Component Analysis which synthesised each adjective’s emotional valence from <a href="https://doi.org/10.18653/v1/P18-1017">Mohammad (2018)</a>.</p>
+<p>First formant value (Hz).</p>
 </dd>
-<dt><code>bounded</code></dt>
+<dt><code>F2</code></dt>
 <dd>
-<p>Output of a random forest classifier that classified scales as bounded (<code>1</code>) or unbounded (<code>0</code>).</p>
+<p>Second formant value (Hz).</p>
 </dd>
-<dt><code>extreme</code></dt>
+<dt><code>F3</code></dt>
 <dd>
-<p>Output of a random forest classifier that classified strong adjectives as extreme (<code>1</code>) or non-extreme (<code>0</code>).</p>
+<p>Third formant value (Hz).</p>
+</dd>
+<dt><code>start</code></dt>
+<dd>
+<p>Onset of vowel (ms within recording).</p>
+</dd>
+<dt><code>end</code></dt>
+<dd>
+<p>Offset of vowel (ms within recording).</p>
+</dd>
+<dt><code>sample_start</code></dt>
+<dd>
+<p>Sample ID of onset of vowel (within recording).</p>
+</dd>
+<dt><code>sample_end</code></dt>
+<dd>
+<p>Sample ID of offset vowel (within recording).</p>
+</dd>
+<dt><code>times_orig</code></dt>
+<dd>
+<p>[Unknown.]</p>
+</dd>
+<dt><code>vowel</code></dt>
+<dd>
+<p>IPA vowel.</p>
+</dd>
+<dt><code>F1.z</code></dt>
+<dd>
+<p>First formant value (z-score).</p>
+</dd>
+<dt><code>F2.z</code></dt>
+<dd>
+<p>Second formant value (z-score).</p>
+</dd>
+<dt><code>F1.z.hz</code></dt>
+<dd>
+<p>First formant value (normalised Hz).</p>
+</dd>
+<dt><code>F2.z.hz</code></dt>
+<dd>
+<p>Second formant value (normalised Hz).</p>
+</dd>
+<dt><code>F1.z.bark</code></dt>
+<dd>
+<p>First formant value (normalised Bark).</p>
+</dd>
+<dt><code>F2.z.bark</code></dt>
+<dd>
+<p>Second formant value (normalised Bark).</p>
+</dd>
+<dt><code>F2_F1.z.hz</code></dt>
+<dd>
+<p>F2-F1 difference (normalised Hz).</p>
 </dd>
 </dl>
 

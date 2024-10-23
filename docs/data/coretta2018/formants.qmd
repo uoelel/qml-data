@@ -101,4 +101,3 @@ data-entry:
 `c2_place`
 
 :   place of C2 (`coronal`, \`velar\`\`)
-
