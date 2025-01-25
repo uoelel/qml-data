@@ -90,6 +90,17 @@ saveRDS(glot_status, "./data/coretta2022/glot_status.rds")
 #   left_join(y = languages, by = c("Language_ID" = "ID"))
 ```
 
+## Egurtzegi 2020
+
+```{r}
+#| label: eu-vot
+
+eu_vot <- read_csv("https://osf.io/download/hnezg/")
+
+dir.create("data/egurtzegi2020/", showWarnings = FALSE)
+write_csv(eu_vot, "data/egurtzegi2020/eu_vot.csv")
+```
+
 ## Iosad 2020
 
 The Morphology and dialectology in the Linguistic Survey of Scotland contains a portion of the morphological questionnaire returns collected for the Linguistic Survey of Scotland (Gaelic). The data have been transcribed and coded from questionnaire slips by Will Lamb.
