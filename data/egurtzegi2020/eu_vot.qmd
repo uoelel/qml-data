@@ -7,8 +7,8 @@ author:
   - "Ander Egurtzegi"
   - "Chris Carignan"
 year: 2020
-languages: "Mixean Basque"
-population: "Basque"
+languages: ["Mixean Basque"]
+populations: ["Basque"]
 data-entry:
   project:
     title: "Mixean Basque"
