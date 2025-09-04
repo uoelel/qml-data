@@ -21,7 +21,7 @@ Data from [OneStop: A 360-Participant English Eye Tracking Dataset with Differen
 fix_dur_file <- "data/berzak2025/fix-dur.csv"
 
 if (!file.exists(fix_dur_file)) {
-  fix_full <- fread("data/berzak2025/fixations_Paragraph_ordinary.csv")
+  fix_full <- fread("bdata/berzak2025/fixations_Paragraph_ordinary.csv")
 
   fix_dur <- fix_full |> 
     filter(

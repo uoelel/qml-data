@@ -7,7 +7,6 @@ project:
     - "!data/prep-data.qmd"
   resources:
     - "data/"
-    - "!data/berzak2025/fixations_Paragraph_ordinary.csv"
     - "data.zip"
 
 website:
