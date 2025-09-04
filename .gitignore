@@ -1,7 +1,6 @@
 *.DS_Store
 
 data/berzak2025/fixations_Paragraph_ordinary.csv
-docs/data/berzak2025/fixations_Paragraph_ordinary.csv
 
 .Rproj.user
 .Rhistory
