@@ -16,6 +16,9 @@ website:
     left:
       - href: index.qmd
         text: Home
+    tools:
+      - icon: github
+        href: https://github.com/uoelel/qml-data
 
 format:
   html:
