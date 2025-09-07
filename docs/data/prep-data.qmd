@@ -236,6 +236,8 @@ write_csv(polite, "data/winter2012/polite.csv")
 ```{r}
 #| label: zip-data
 
+ds_files <- list.files("data", pattern = "\\.DS_Store$", recursive = TRUE, full.names = TRUE, all.files = TRUE)
+if (length(ds_files) > 0) file.remove(ds_files)
 zip("data.zip", "data")
 
 ```
