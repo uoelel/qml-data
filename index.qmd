@@ -15,7 +15,7 @@ format:
     page-layout: full
 ---
 
-This website contains a curated list of data tables (aka tabular, rectangular, or spreadsheet data) from linguistic studies, which can be used in courses of statistics, quantitative methods and data analysis. The repository of the website can be found on GitHub at <https://github.com/uoelel/qml-data>.
+This website contains a curated list of data tables (aka tabular, rectangular, or spreadsheet data) from linguistic studies, which can be used in courses of statistics, quantitative methods and data analysis. The repository of the website can be found on GitHub at <https://github.com/uoelel/qml-data>. **The entire collection of data can be downloaded by clicking on the Download button below**. To access individual data files, go to the GitHub repository.
 
 ::: callout-important
 ## Help us!
