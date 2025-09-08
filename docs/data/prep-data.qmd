@@ -152,6 +152,24 @@ dir.create("data/krajewska2022/", showWarnings = FALSE)
 write_csv(basque_sibil, "data/krajewska2022/basque_sibil.csv")
 ```
 
+## McLaughlin 2023
+
+```{r}
+#| label: pupil-width
+
+pupil_width_full <- read_csv("https://osf.io/download/emy8s/")
+
+pupil_width <- pupil_width_full |> 
+  group_by(subject, trial, Condition, Age) |> 
+  summarise(
+    pupil_max = max(pupil.binned),
+    .groups = "drop"
+  )
+
+dir.create("data/mclaughlin2023/", showWarnings = FALSE)
+write_csv(pupil_width, "data/mclaughlin2023/pupil-width.csv")
+```
+
 ## Martin 2020
 
 ```{r}
