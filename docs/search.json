@@ -235,14 +235,14 @@
     "href": "data/mclaughlin2023/pupil-width.html",
     "title": "Pupillometry reveals cognitive demands of lexical competition during spoken word recognition in young and older adults (subset)",
     "section": "",
-    "text": "subject\n\nPatricipant’s ID.\n\ntrial\n\nTrial number.\n\nCondition\n\nNeighbourhood density condition (Dense or Sparse).\n\nAge\n\nParticipant’s age bin (OA old adult, YA young adult).\n\npupil_max\n\nMaximum pupil size within trial (in arbitrary units AU)."
+    "text": "subject\n\nPatricipant’s ID.\n\ntrial\n\nTrial number.\n\nCondition\n\nNeighbourhood density condition (Dense or Sparse).\n\nAge\n\nParticipant’s age bin (OA old adult, YA young adult).\n\npupil_max\n\nMaximum pupil size within trial (scaled within trial and subject, originally in arbitrary units AU)."
   },
   {
     "objectID": "data/mclaughlin2023/pupil-width.html#variables",
     "href": "data/mclaughlin2023/pupil-width.html#variables",
     "title": "Pupillometry reveals cognitive demands of lexical competition during spoken word recognition in young and older adults (subset)",
     "section": "",
-    "text": "subject\n\nPatricipant’s ID.\n\ntrial\n\nTrial number.\n\nCondition\n\nNeighbourhood density condition (Dense or Sparse).\n\nAge\n\nParticipant’s age bin (OA old adult, YA young adult).\n\npupil_max\n\nMaximum pupil size within trial (in arbitrary units AU)."
+    "text": "subject\n\nPatricipant’s ID.\n\ntrial\n\nTrial number.\n\nCondition\n\nNeighbourhood density condition (Dense or Sparse).\n\nAge\n\nParticipant’s age bin (OA old adult, YA young adult).\n\npupil_max\n\nMaximum pupil size within trial (scaled within trial and subject, originally in arbitrary units AU)."
   },
   {
     "objectID": "data/pankratz2021/si.html",

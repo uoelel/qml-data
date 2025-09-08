@@ -160,6 +160,11 @@ write_csv(basque_sibil, "data/krajewska2022/basque_sibil.csv")
 pupil_width_full <- read_csv("https://osf.io/download/emy8s/")
 
 pupil_width <- pupil_width_full |> 
+  group_by(subject, trial) |> 
+  mutate(
+    pupil.binned = (pupil.binned - mean(pupil.binned)) / sd(pupil.binned)
+  ) |> 
+  filter(timebins > 1000, timebins < 1500) |> 
   group_by(subject, trial, Condition, Age) |> 
   summarise(
     pupil_max = max(pupil.binned),

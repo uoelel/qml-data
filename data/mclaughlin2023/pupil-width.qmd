@@ -48,4 +48,4 @@ data-entry:
 
 `pupil_max`
 
-:   Maximum pupil size within trial (in arbitrary units AU).
+:   Maximum pupil size within trial (scaled within trial and subject, originally in arbitrary units AU).
