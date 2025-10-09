@@ -34,3 +34,11 @@ abstract: |
 `Female_0`
 
 :   Participant's gender (female = `0`, male = `1`).
+
+## Preview
+
+```{r}
+#| label: dat
+dat <- readr::read_delim("data/koppensteiner2016/takete_maluma.txt")
+dat
+```

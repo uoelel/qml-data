@@ -6,3 +6,10 @@ url: "https://github.com/stefanocoretta/aelfric-relatives"
 languages: "Old English"
 ---
 
+## Preview
+
+```{r}
+#| label: dat
+dat <- readxl::read_excel("data/los2023/relatives.xlsx")
+dat
+```

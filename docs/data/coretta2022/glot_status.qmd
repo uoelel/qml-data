@@ -79,3 +79,11 @@ url: "https://osf.io/vry3h/"
 `Language_ID.y`
 
 :   Language ID.
+
+## Preview
+
+```{r}
+#| label: dat
+dat <- readRDS("data/coretta2022/glot_status.rds")
+dat
+```

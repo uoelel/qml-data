@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../assets/img/favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6bdd2aebeb936dcddaa5f935a5de481c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +70,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="../../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -81,6 +84,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">QML Data</span>
     </a>
@@ -107,8 +112,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#preview" id="toc-preview" class="nav-link active" data-scroll-target="#preview"><span class="header-section-number">1</span> Preview</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,8 +163,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="preview" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="preview"><span class="header-section-number">1</span> Preview</h2>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 405 Columns: 3
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): Word, Modality
+dbl (1): Val
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="cell-output-display">
+<div data-pagedtable="false">
+  <script data-pagedtable-source="" type="application/json">
+{"columns":[{"label":["Word"],"name":[1],"type":["chr"],"align":["left"]},{"label":["Modality"],"name":[2],"type":["chr"],"align":["left"]},{"label":["Val"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"abrasive","2":"Touch","3":"5.398113"},{"1":"absorbent","2":"Sight","3":"5.876667"},{"1":"aching","2":"Touch","3":"5.233370"},{"1":"acidic","2":"Taste","3":"5.539592"},{"1":"acrid","2":"Smell","3":"5.173947"},{"1":"adhesive","2":"Touch","3":"5.240000"},{"1":"alcoholic","2":"Taste","3":"5.557228"},{"1":"alive","2":"Sight","3":"6.040952"},{"1":"amber","2":"Sight","3":"5.720549"},{"1":"angular","2":"Sight","3":"5.477616"},{"1":"antiseptic","2":"Smell","3":"5.511795"},{"1":"aromatic","2":"Smell","3":"5.952941"},{"1":"astringent","2":"Taste","3":"5.965000"},{"1":"audible","2":"Sound","3":"5.351284"},{"1":"banging","2":"Sound","3":"5.706667"},{"1":"barbecued","2":"Taste","3":"6.052778"},{"1":"barking","2":"Sound","3":"5.696316"},{"1":"beautiful","2":"Sight","3":"5.819057"},{"1":"beeping","2":"Sound","3":"4.898000"},{"1":"beery","2":"Taste","3":"6.072143"},{"1":"beige","2":"Sight","3":"5.585794"},{"1":"bent","2":"Sight","3":"5.382308"},{"1":"big","2":"Sight","3":"5.279962"},{"1":"bitter","2":"Taste","3":"5.124433"},{"1":"black","2":"Sight","3":"5.314124"},{"1":"bland","2":"Taste","3":"5.752286"},{"1":"blaring","2":"Sound","3":"5.275556"},{"1":"bleeping","2":"Sound","3":"5.120000"},{"1":"blonde","2":"Sight","3":"5.523851"},{"1":"bloody","2":"Sight","3":"5.062922"},{"1":"blotchy","2":"Sight","3":"5.692000"},{"1":"blue","2":"Sight","3":"5.573986"},{"1":"blunt","2":"Touch","3":"5.225741"},{"1":"boiling","2":"Sight","3":"5.467143"},{"1":"booming","2":"Sound","3":"5.528000"},{"1":"bouncy","2":"Touch","3":"6.130857"},{"1":"brackish","2":"Touch","3":"5.846364"},{"1":"branching","2":"Sight","3":"5.616552"},{"1":"breakable","2":"Sight","3":"5.778333"},{"1":"breezy","2":"Sight","3":"5.993288"},{"1":"bright","2":"Sight","3":"5.744751"},{"1":"brilliant","2":"Sight","3":"5.725645"},{"1":"briny","2":"Taste","3":"5.854211"},{"1":"bristly","2":"Touch","3":"5.487931"},{"1":"brittle","2":"Touch","3":"5.687474"},{"1":"broad","2":"Sight","3":"5.507316"},{"1":"broken","2":"Sight","3":"5.542656"},{"1":"brown","2":"Sight","3":"5.470279"},{"1":"bulky","2":"Sight","3":"5.424375"},{"1":"bumpy","2":"Touch","3":"5.566727"},{"1":"burning","2":"Smell","3":"5.284299"},{"1":"burnt","2":"Smell","3":"5.688061"},{"1":"bursting","2":"Sight","3":"5.030667"},{"1":"buttery","2":"Taste","3":"5.981587"},{"1":"buzzing","2":"Sound","3":"5.304186"},{"1":"charred","2":"Sight","3":"5.445234"},{"1":"cheesy","2":"Taste","3":"5.712931"},{"1":"chewy","2":"Taste","3":"6.031667"},{"1":"chilly","2":"Touch","3":"5.646641"},{"1":"chubby","2":"Sight","3":"5.797000"},{"1":"circular","2":"Sight","3":"5.500909"},{"1":"citrusy","2":"Taste","3":"6.394167"},{"1":"clammy","2":"Touch","3":"5.379714"},{"1":"clamorous","2":"Touch","3":"5.485882"},{"1":"clean","2":"Sight","3":"5.519522"},{"1":"clear","2":"Sight","3":"5.441102"},{"1":"cloudy","2":"Sight","3":"5.802821"},{"1":"cloying","2":"Taste","3":"5.882222"},{"1":"cold","2":"Touch","3":"5.441073"},{"1":"colorful","2":"Sight","3":"5.733112"},{"1":"colossal","2":"Sight","3":"4.809586"},{"1":"compact","2":"Sight","3":"5.610840"},{"1":"conical","2":"Sight","3":"5.315897"},{"1":"contoured","2":"Sight","3":"5.273810"},{"1":"cooing","2":"Sound","3":"5.446250"},{"1":"cool","2":"Touch","3":"5.733410"},{"1":"crackling","2":"Sound","3":"5.406304"},{"1":"craggy","2":"Sight","3":"5.613864"},{"1":"crashing","2":"Sight","3":"5.431944"},{"1":"creaking","2":"Sound","3":"5.258000"},{"1":"creamy","2":"Taste","3":"5.915211"},{"1":"creased","2":"Sight","3":"5.638333"},{"1":"crimson","2":"Sight","3":"5.701769"},{"1":"crinkled","2":"Sight","3":"5.621250"},{"1":"crisp","2":"Touch","3":"5.792485"},{"1":"crooked","2":"Sight","3":"5.554247"},{"1":"crowded","2":"Sight","3":"5.491034"},{"1":"crunching","2":"Sound","3":"5.568750"},{"1":"curly","2":"Sight","3":"5.797143"},{"1":"curved","2":"Sight","3":"5.403807"},{"1":"cute","2":"Sight","3":"5.948919"},{"1":"damp","2":"Touch","3":"5.563317"},{"1":"dank","2":"Sight","3":"5.300656"},{"1":"dappled","2":"Sight","3":"6.320952"},{"1":"dark","2":"Sight","3":"5.511174"},{"1":"dazzling","2":"Sight","3":"6.002187"},{"1":"dead","2":"Sight","3":"5.540287"},{"1":"deafening","2":"Sound","3":"5.128784"},{"1":"deep","2":"Sight","3":"5.276959"},{"1":"delicious","2":"Taste","3":"5.820345"},{"1":"dim","2":"Sight","3":"5.670718"},{"1":"dirty","2":"Sight","3":"5.396744"},{"1":"downy","2":"Sight","3":"5.875882"},{"1":"drab","2":"Sight","3":"5.702308"},{"1":"dry","2":"Touch","3":"5.469626"},{"1":"dull","2":"Sight","3":"5.377754"},{"1":"dusty","2":"Sight","3":"5.498056"},{"1":"earthy","2":"Sight","3":"5.943600"},{"1":"echoing","2":"Sound","3":"5.227455"},{"1":"eggy","2":"Taste","3":"6.436000"},{"1":"elastic","2":"Touch","3":"5.487065"},{"1":"elegant","2":"Sight","3":"5.783939"},{"1":"empty","2":"Sight","3":"5.501382"},{"1":"enormous","2":"Sight","3":"5.308308"},{"1":"faint","2":"Sight","3":"5.395809"},{"1":"falling","2":"Sight","3":"5.429920"},{"1":"fat","2":"Sight","3":"5.380685"},{"1":"fatty","2":"Taste","3":"5.365283"},{"1":"fetid","2":"Smell","3":"5.210606"},{"1":"feverish","2":"Touch","3":"5.636400"},{"1":"filthy","2":"Sight","3":"5.326199"},{"1":"fishy","2":"Smell","3":"5.795600"},{"1":"flaky","2":"Touch","3":"5.906000"},{"1":"flat","2":"Sight","3":"5.485528"},{"1":"fleshy","2":"Sight","3":"5.603472"},{"1":"flickering","2":"Sight","3":"5.691852"},{"1":"floppy","2":"Sight","3":"5.601250"},{"1":"floral","2":"Sight","3":"5.783373"},{"1":"flowery","2":"Sight","3":"5.849808"},{"1":"fluffy","2":"Touch","3":"5.941970"},{"1":"foamy","2":"Sight","3":"5.396154"},{"1":"foggy","2":"Sight","3":"5.673284"},{"1":"forked","2":"Sight","3":"5.738125"},{"1":"fragrant","2":"Smell","3":"5.860545"},{"1":"freezing","2":"Touch","3":"5.465165"},{"1":"fresh","2":"Smell","3":"5.453644"},{"1":"frosty","2":"Sight","3":"5.835781"},{"1":"fruity","2":"Taste","3":"5.958382"},{"1":"fuzzy","2":"Sight","3":"5.703173"},{"1":"garlicky","2":"Taste","3":"5.971944"},{"1":"gigantic","2":"Sight","3":"5.379982"},{"1":"giggling","2":"Sound","3":"5.805238"},{"1":"glamorous","2":"Sight","3":"5.867992"},{"1":"gleaming","2":"Sight","3":"5.567815"},{"1":"glistening","2":"Sight","3":"5.636195"},{"1":"glittery","2":"Sight","3":"5.607975"},{"1":"globular","2":"Sight","3":"5.597143"},{"1":"glossy","2":"Sight","3":"5.695562"},{"1":"glowing","2":"Sight","3":"5.707634"},{"1":"gold","2":"Sight","3":"5.510550"},{"1":"gooey","2":"Touch","3":"5.731957"},{"1":"gorgeous","2":"Sight","3":"5.921106"},{"1":"grainy","2":"Touch","3":"5.741573"},{"1":"grassy","2":"Sight","3":"5.638606"},{"1":"gray","2":"Sight","3":"5.377327"},{"1":"greasy","2":"Touch","3":"5.462869"},{"1":"green","2":"Sight","3":"5.522521"},{"1":"gritty","2":"Touch","3":"5.712489"},{"1":"groaning","2":"Sound","3":"5.392500"},{"1":"grotesque","2":"Sight","3":"5.153974"},{"1":"growling","2":"Sound","3":"5.283824"},{"1":"grubby","2":"Sight","3":"5.602174"},{"1":"gurgling","2":"Sound","3":"5.121622"},{"1":"hairy","2":"Sight","3":"5.195745"},{"1":"handsome","2":"Sight","3":"5.710402"},{"1":"happy","2":"Sight","3":"5.628562"},{"1":"hard","2":"Touch","3":"5.441935"},{"1":"harsh","2":"Sound","3":"5.249680"},{"1":"hazy","2":"Sight","3":"5.745000"},{"1":"heavy","2":"Touch","3":"5.205227"},{"1":"high","2":"Sight","3":"5.436637"},{"1":"hissing","2":"Sound","3":"5.357049"},{"1":"hoarse","2":"Sound","3":"5.390217"},{"1":"hollow","2":"Sight","3":"5.444704"},{"1":"honeyed","2":"Taste","3":"5.940417"},{"1":"hot","2":"Touch","3":"5.528399"},{"1":"howling","2":"Sound","3":"4.933523"},{"1":"huge","2":"Sight","3":"5.262619"},{"1":"humid","2":"Touch","3":"5.586163"},{"1":"hushed","2":"Sound","3":"5.672018"},{"1":"husky","2":"Sound","3":"5.609877"},{"1":"icy","2":"Sight","3":"5.434382"},{"1":"immense","2":"Sight","3":"5.405320"},{"1":"insipid","2":"Sight","3":"6.155227"},{"1":"itchy","2":"Touch","3":"5.224848"},{"1":"jagged","2":"Touch","3":"5.306729"},{"1":"jammy","2":"Taste","3":"5.517143"},{"1":"jingling","2":"Sound","3":"5.798000"},{"1":"juicy","2":"Taste","3":"5.674646"},{"1":"khaki","2":"Sight","3":"5.744918"},{"1":"large","2":"Sight","3":"5.371699"},{"1":"laughing","2":"Sound","3":"5.542653"},{"1":"leathery","2":"Touch","3":"5.649412"},{"1":"lemony","2":"Taste","3":"6.201778"},{"1":"light","2":"Sight","3":"5.461286"},{"1":"lilting","2":"Sight","3":"6.171250"},{"1":"lithe","2":"Sight","3":"5.680909"},{"1":"little","2":"Sight","3":"5.248460"},{"1":"long","2":"Sight","3":"5.283406"},{"1":"loose","2":"Sight","3":"5.419716"},{"1":"loud","2":"Sound","3":"5.208568"},{"1":"low","2":"Sight","3":"5.380741"},{"1":"lukewarm","2":"Touch","3":"6.003924"},{"1":"lumpy","2":"Touch","3":"5.753760"},{"1":"lush","2":"Sight","3":"5.970545"},{"1":"malty","2":"Taste","3":"5.870000"},{"1":"meaty","2":"Taste","3":"5.502743"},{"1":"medicinal","2":"Sight","3":"5.528716"},{"1":"mellow","2":"Sight","3":"5.997295"},{"1":"melodious","2":"Sound","3":"5.941628"},{"1":"melted","2":"Sight","3":"5.526966"},{"1":"meowing","2":"Sound","3":"5.530000"},{"1":"mild","2":"Taste","3":"4.814976"},{"1":"miniature","2":"Sight","3":"5.619508"},{"1":"minty","2":"Taste","3":"6.074828"},{"1":"misty","2":"Sight","3":"5.768054"},{"1":"moaning","2":"Sound","3":"5.211500"},{"1":"moist","2":"Touch","3":"5.595180"},{"1":"motionless","2":"Sight","3":"5.533119"},{"1":"mottled","2":"Sight","3":"5.611685"},{"1":"muddy","2":"Sight","3":"5.317742"},{"1":"muffled","2":"Sound","3":"5.111319"},{"1":"muggy","2":"Sight","3":"6.271429"},{"1":"mumbling","2":"Sound","3":"5.153846"},{"1":"murky","2":"Sight","3":"5.518449"},{"1":"murmuring","2":"Sound","3":"5.677308"},{"1":"mushroomy","2":"Taste","3":"5.500000"},{"1":"mushy","2":"Touch","3":"5.556269"},{"1":"musky","2":"Smell","3":"5.776757"},{"1":"musty","2":"Smell","3":"5.468288"},{"1":"mute","2":"Sound","3":"5.380520"},{"1":"muttering","2":"Sound","3":"6.056667"},{"1":"narrow","2":"Sight","3":"5.395671"},{"1":"noisy","2":"Sound","3":"5.364528"},{"1":"noxious","2":"Smell","3":"4.849032"},{"1":"nutty","2":"Taste","3":"6.013333"},{"1":"odorous","2":"Smell","3":"5.362857"},{"1":"oily","2":"Sight","3":"5.468782"},{"1":"oniony","2":"Taste","3":"5.872500"},{"1":"open","2":"Sight","3":"5.327379"},{"1":"orange","2":"Sight","3":"5.591411"},{"1":"oval","2":"Sight","3":"5.605568"},{"1":"painful","2":"Touch","3":"5.002169"},{"1":"palatable","2":"Taste","3":"5.721765"},{"1":"pale","2":"Sight","3":"5.593281"},{"1":"patterned","2":"Sight","3":"5.686810"},{"1":"peachy","2":"Taste","3":"6.249565"},{"1":"peppery","2":"Taste","3":"5.613488"},{"1":"perfumed","2":"Smell","3":"5.936667"},{"1":"petite","2":"Sight","3":"5.988046"},{"1":"pink","2":"Sight","3":"5.613788"},{"1":"plain","2":"Sight","3":"5.499517"},{"1":"polished","2":"Sight","3":"5.673475"},{"1":"popping","2":"Sound","3":"5.028500"},{"1":"portly","2":"Sight","3":"5.631935"},{"1":"prickly","2":"Touch","3":"5.739301"},{"1":"puffy","2":"Sight","3":"5.876375"},{"1":"pulsing","2":"Touch","3":"5.612375"},{"1":"pungent","2":"Smell","3":"5.657481"},{"1":"puny","2":"Sight","3":"5.683371"},{"1":"purple","2":"Sight","3":"5.507178"},{"1":"purring","2":"Sound","3":"5.850556"},{"1":"putrid","2":"Smell","3":"5.175082"},{"1":"quiet","2":"Sound","3":"5.609460"},{"1":"radiant","2":"Sight","3":"6.145971"},{"1":"rancid","2":"Smell","3":"5.129649"},{"1":"raspy","2":"Sound","3":"5.282381"},{"1":"raucous","2":"Sound","3":"5.646625"},{"1":"rectangular","2":"Sight","3":"5.426000"},{"1":"red","2":"Sight","3":"5.414637"},{"1":"reddish","2":"Sight","3":"5.487951"},{"1":"reeking","2":"Smell","3":"4.630476"},{"1":"resounding","2":"Sound","3":"5.319145"},{"1":"reverberating","2":"Sound","3":"5.211579"},{"1":"rhythmic","2":"Sound","3":"5.621275"},{"1":"ripe","2":"Taste","3":"5.779675"},{"1":"rippled","2":"Sight","3":"5.636757"},{"1":"rippling","2":"Sight","3":"5.553187"},{"1":"roasted","2":"Taste","3":"5.898198"},{"1":"roasting","2":"Sight","3":"5.492500"},{"1":"rotten","2":"Sight","3":"5.583675"},{"1":"rotund","2":"Sight","3":"5.673243"},{"1":"rough","2":"Touch","3":"5.512853"},{"1":"round","2":"Sight","3":"5.523026"},{"1":"rubbery","2":"Touch","3":"5.532706"},{"1":"rumbling","2":"Sound","3":"5.144545"},{"1":"rustling","2":"Sound","3":"5.909444"},{"1":"rusty","2":"Sight","3":"5.322664"},{"1":"salty","2":"Taste","3":"5.693989"},{"1":"savory","2":"Taste","3":"5.915000"},{"1":"scaly","2":"Touch","3":"5.411455"},{"1":"scented","2":"Smell","3":"5.828333"},{"1":"scentless","2":"Smell","3":"5.755000"},{"1":"scratchy","2":"Touch","3":"5.722639"},{"1":"scrawny","2":"Sight","3":"5.616933"},{"1":"screaming","2":"Sound","3":"5.282484"},{"1":"screeching","2":"Sound","3":"5.503548"},{"1":"searing","2":"Sight","3":"5.215640"},{"1":"shadowy","2":"Sight","3":"5.466477"},{"1":"shaggy","2":"Sight","3":"5.620693"},{"1":"shallow","2":"Sight","3":"5.515985"},{"1":"sharp","2":"Touch","3":"5.202479"},{"1":"sheer","2":"Sight","3":"5.299710"},{"1":"shimmering","2":"Sight","3":"5.891687"},{"1":"shiny","2":"Sight","3":"5.413979"},{"1":"short","2":"Sight","3":"5.433437"},{"1":"shrieking","2":"Sound","3":"5.240377"},{"1":"shrill","2":"Sound","3":"5.087353"},{"1":"silent","2":"Sound","3":"5.331202"},{"1":"silky","2":"Touch","3":"5.740195"},{"1":"silver","2":"Sight","3":"5.784932"},{"1":"skinny","2":"Sight","3":"5.533891"},{"1":"slick","2":"Sight","3":"5.504644"},{"1":"slimy","2":"Touch","3":"5.194463"},{"1":"slippery","2":"Touch","3":"5.446836"},{"1":"slushy","2":"Sight","3":"5.309310"},{"1":"small","2":"Sight","3":"5.314277"},{"1":"smelly","2":"Smell","3":"5.176338"},{"1":"smoky","2":"Smell","3":"5.538824"},{"1":"smooth","2":"Touch","3":"5.540558"},{"1":"snarling","2":"Sound","3":"5.163188"},{"1":"snorting","2":"Sound","3":"5.395000"},{"1":"soapy","2":"Sight","3":"5.916444"},{"1":"sodden","2":"Sight","3":"5.409310"},{"1":"soft","2":"Touch","3":"5.454474"},{"1":"soggy","2":"Touch","3":"5.444420"},{"1":"solid","2":"Touch","3":"5.527763"},{"1":"sonorous","2":"Sound","3":"5.874878"},{"1":"sore","2":"Touch","3":"5.056132"},{"1":"soundless","2":"Sound","3":"5.229796"},{"1":"sour","2":"Taste","3":"5.491092"},{"1":"sparkly","2":"Sight","3":"5.738868"},{"1":"speckled","2":"Sight","3":"5.589194"},{"1":"spicy","2":"Taste","3":"5.843226"},{"1":"spiky","2":"Touch","3":"5.707368"},{"1":"spilling","2":"Sight","3":"5.700000"},{"1":"spotless","2":"Sight","3":"5.918400"},{"1":"spotted","2":"Sight","3":"5.405044"},{"1":"square","2":"Sight","3":"5.548261"},{"1":"squeaking","2":"Sound","3":"5.320000"},{"1":"squealing","2":"Sound","3":"5.372143"},{"1":"stagnant","2":"Sight","3":"5.371034"},{"1":"stale","2":"Taste","3":"5.518960"},{"1":"steep","2":"Sight","3":"5.228913"},{"1":"stenchy","2":"Smell","3":"5.620000"},{"1":"sticky","2":"Touch","3":"5.337000"},{"1":"stinging","2":"Touch","3":"4.847368"},{"1":"stinky","2":"Smell","3":"5.485862"},{"1":"stormy","2":"Sight","3":"5.501053"},{"1":"straight","2":"Sight","3":"5.438607"},{"1":"strange","2":"Sight","3":"5.480895"},{"1":"striped","2":"Sight","3":"5.579267"},{"1":"strong","2":"Sight","3":"5.430486"},{"1":"sturdy","2":"Touch","3":"5.644060"},{"1":"sunny","2":"Sight","3":"5.931320"},{"1":"sweaty","2":"Smell","3":"5.453204"},{"1":"sweet","2":"Taste","3":"5.681453"},{"1":"swift","2":"Sight","3":"5.248944"},{"1":"swinging","2":"Sight","3":"5.463869"},{"1":"tall","2":"Sight","3":"5.542500"},{"1":"tangerine","2":"Sight","3":"5.902564"},{"1":"tangy","2":"Taste","3":"5.876625"},{"1":"tapering","2":"Sight","3":"5.485172"},{"1":"tart","2":"Taste","3":"5.990337"},{"1":"tasteless","2":"Taste","3":"5.661061"},{"1":"tasty","2":"Taste","3":"5.894337"},{"1":"tender","2":"Touch","3":"5.712243"},{"1":"tepid","2":"Touch","3":"5.940707"},{"1":"thorny","2":"Touch","3":"5.458902"},{"1":"thudding","2":"Sound","3":"4.881333"},{"1":"thumping","2":"Sound","3":"5.002414"},{"1":"thunderous","2":"Sound","3":"5.203923"},{"1":"ticklish","2":"Touch","3":"5.367419"},{"1":"tight","2":"Touch","3":"5.378704"},{"1":"tinkling","2":"Sound","3":"6.292963"},{"1":"tiny","2":"Sight","3":"5.370494"},{"1":"tough","2":"Touch","3":"5.355046"},{"1":"translucent","2":"Sight","3":"5.597755"},{"1":"transparent","2":"Sight","3":"5.492265"},{"1":"triangular","2":"Sight","3":"5.473555"},{"1":"ugly","2":"Sight","3":"5.146510"},{"1":"uneven","2":"Sight","3":"5.636812"},{"1":"unpalatable","2":"Taste","3":"5.535185"},{"1":"unripe","2":"Sight","3":"6.737000"},{"1":"vegetal","2":"Sight","3":"5.915652"},{"1":"vinegary","2":"Taste","3":"6.248095"},{"1":"vivid","2":"Sight","3":"5.823142"},{"1":"wailing","2":"Sound","3":"5.548043"},{"1":"warbling","2":"Sound","3":"5.170000"},{"1":"warm","2":"Touch","3":"5.774844"},{"1":"waxy","2":"Touch","3":"5.735270"},{"1":"weak","2":"Sight","3":"5.453759"},{"1":"weightless","2":"Touch","3":"5.756875"},{"1":"wet","2":"Touch","3":"5.415123"},{"1":"whimpering","2":"Sound","3":"4.904500"},{"1":"whining","2":"Sound","3":"5.290976"},{"1":"whispering","2":"Sound","3":"5.895500"},{"1":"whistling","2":"Sound","3":"5.827143"},{"1":"white","2":"Sight","3":"5.353694"},{"1":"wide","2":"Sight","3":"5.450416"},{"1":"wiry","2":"Sight","3":"5.665333"},{"1":"wispy","2":"Sight","3":"5.678721"},{"1":"wizened","2":"Sight","3":"5.733333"},{"1":"woolly","2":"Touch","3":"5.503770"},{"1":"yellow","2":"Sight","3":"5.451604"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -207,13 +240,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

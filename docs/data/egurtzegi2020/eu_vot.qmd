@@ -56,3 +56,11 @@ data-entry:
 `VOT`
 
 :   Voice Onset Time (s).
+
+## Preview
+
+```{r}
+#| label: dat
+dat <- readr::read_csv("data/egurtzegi2020/eu_vot.csv")
+dat
+```

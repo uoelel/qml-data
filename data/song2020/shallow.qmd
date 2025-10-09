@@ -56,3 +56,11 @@ abstract: |
 `Branching`
 
 :   Whether the trial word is `Left`-branching or `Right`-branching.
+
+## Preview
+
+```{r}
+#| label: dat
+dat <- readr::read_csv("data/song2020/shallow.csv")
+dat
+```

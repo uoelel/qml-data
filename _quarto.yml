@@ -28,6 +28,10 @@ format:
     df-print: paged
     number-sections: true
 
+execute:
+  echo: false
+  freeze: auto
+
 callout-icon: false
 
 editor: visual

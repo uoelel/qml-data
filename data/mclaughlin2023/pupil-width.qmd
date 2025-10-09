@@ -49,3 +49,11 @@ data-entry:
 `pupil_max`
 
 :   Maximum pupil size within trial (scaled within trial and subject, originally in arbitrary units AU).
+
+## Preview
+
+```{r}
+#| label: dat
+dat <- readr::read_csv("data/mclaughlin2023/pupil-width.csv")
+dat
+```

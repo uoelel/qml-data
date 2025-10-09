@@ -88,3 +88,11 @@ data-entry:
 `bps`
 
 :   Branch proximity for all spoken languages.
+
+## Preview
+
+```{r}
+#| label: dat
+dat <- readr::read_csv("data/gurevich2024/DICL_v2.csv")
+dat
+```

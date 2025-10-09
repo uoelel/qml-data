@@ -9,3 +9,11 @@ url: "https://github.com/stefanocoretta/coretta2018itaegg"
 abstract: |
   A dataset with duration and formants measures from 19 speakers of Italian.
 ---
+
+## Preview
+
+```{r}
+#| label: dat
+load("data/coretta2018a/formants.rda")
+formants
+```

@@ -234,3 +234,11 @@ data-entry:
 `speech_rate_c`
 
 :   centred speech rate as syllables per second
+
+## Preview
+
+```{r}
+#| label: dat
+dat <- readr::read_csv("data/coretta2018/token-measures.csv")
+dat
+```
