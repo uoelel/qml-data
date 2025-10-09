@@ -25,7 +25,7 @@
     "href": "data/winter2012/polite.html#preview",
     "title": "The phonetic profile of Korean formal and informal speech registers",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 224 Columns: 27\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (6): subject, gender, birthplace, musicstudent, task, attitude\ndbl (21): months_ger, scenario, total_duration, articulation_rate, f0mn, f0s...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/tucker2019/mald_1_1.html",
@@ -60,7 +60,7 @@
     "href": "data/sluckin2022/everywhere-loc.html#preview",
     "title": "‘Everywhere here can say this’: The English locative impersonal",
     "section": "1 Preview",
-    "text": "1 Preview\n\n\nRows: 5290 Columns: 16\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (9): DataType, Stage, List, Condition, Construction, Age, Education, Gen...\ndbl (7): Subject, Item, Restrictor, Value, Where, Order, Zscore\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "1 Preview"
   },
   {
     "objectID": "data/ota2009/key-rock.html",
@@ -81,49 +81,7 @@
     "href": "data/ota2009/key-rock.html#preview",
     "title": "The KEY to the ROCK: Near-homophony in nonnative visual word recognition",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 7538 Columns: 10\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (6): Procedure, Version, Contrast, Condition, WordL, WordR\ndbl (4): Subject, Item, Words.ACC, Words.RT\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
-  },
-  {
-    "objectID": "data/martin2020/suff_pref.html",
-    "href": "data/martin2020/suff_pref.html",
-    "title": "Revisiting the Suffixing Preference: Native-Language Affixation Patterns Influence Perception of Sequences",
-    "section": "",
-    "text": "Rows: 4943 Columns: 25\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (13): condition, subjID, phase, trial_type, target, correct, wrong, stra...\ndbl (12): trial, correct_order, lang1_rating, lang2, lang2_rating, lang3, la...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
-  },
-  {
-    "objectID": "data/martin2020/suff_pref.html#preview",
-    "href": "data/martin2020/suff_pref.html#preview",
-    "title": "Revisiting the Suffixing Preference: Native-Language Affixation Patterns Influence Perception of Sequences",
-    "section": "",
-    "text": "Rows: 4943 Columns: 25\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (13): condition, subjID, phase, trial_type, target, correct, wrong, stra...\ndbl (12): trial, correct_order, lang1_rating, lang2, lang2_rating, lang3, la...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
-  },
-  {
-    "objectID": "data/krajewska2022/basque_sibil.html",
-    "href": "data/krajewska2022/basque_sibil.html",
-    "title": "Sibilant mergers in 18th-century Basque: A quantitative study",
-    "section": "",
-    "text": "Rows: 6316 Columns: 18\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (13): place_etym, context, prev_sound, sound_etym, next_sound, letter, c...\ndbl  (5): id, freqGO, freqLUB, page, frequency\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
-  },
-  {
-    "objectID": "data/krajewska2022/basque_sibil.html#preview",
-    "href": "data/krajewska2022/basque_sibil.html#preview",
-    "title": "Sibilant mergers in 18th-century Basque: A quantitative study",
-    "section": "",
-    "text": "Rows: 6316 Columns: 18\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (13): place_etym, context, prev_sound, sound_etym, next_sound, letter, c...\ndbl  (5): id, freqGO, freqLUB, page, frequency\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
-  },
-  {
-    "objectID": "data/iosad2020/gael_morph.html",
-    "href": "data/iosad2020/gael_morph.html",
-    "title": "Morphology and dialectology in the Linguistic Survey of Scotland",
-    "section": "",
-    "text": "Rows: 201 Columns: 74\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (6): sgds_point, district, township, census_point, gender, label_for_co...\ndbl (67): id, a' c[h]as, a' chas b[h]eag, leis an [t-]sùil, f[h]ir bhig, a' ...\nlgl  (1): fem_gender\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
-  },
-  {
-    "objectID": "data/iosad2020/gael_morph.html#preview",
-    "href": "data/iosad2020/gael_morph.html#preview",
-    "title": "Morphology and dialectology in the Linguistic Survey of Scotland",
-    "section": "",
-    "text": "Rows: 201 Columns: 74\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (6): sgds_point, district, township, census_point, gender, label_for_co...\ndbl (67): id, a' c[h]as, a' chas b[h]eag, leis an [t-]sùil, f[h]ir bhig, a' ...\nlgl  (1): fem_gender\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/gurevich2024/DICL_v2.html",
@@ -144,7 +102,7 @@
     "href": "data/gurevich2024/DICL_v2.html#preview",
     "title": "Domestic and International Common Language (DICL) Database",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 58564 Columns: 15\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (4): iso3_i, country_i, iso3_j, country_j\ndbl (11): col, cor, cnl, cal, csl, lpn, lpa, lps, bpn, bpa, bps\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/coretta2022/glot_status.html",
@@ -186,7 +144,7 @@
     "href": "data/coretta2021/alb-vot.html#preview",
     "title": "Albanian Voice Onset Time",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 180 Columns: 6\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): speaker, file, label, consonant\ndbl (2): release, voi_onset\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/coretta2018/token-measures.html",
@@ -207,7 +165,7 @@
     "href": "data/coretta2018/token-measures.html#preview",
     "title": "Acoustics and articulatory durational measures of Italian and Polish",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 1343 Columns: 57\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (18): speaker, file, rec_date, ipu, prompt, word, language, gender, glot...\ndbl (39): index, time, sentence_ons, sentence_off, word_ons, word_off, v1_on...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/cameron2020/gestures.html",
@@ -228,7 +186,7 @@
     "href": "data/cameron2020/gestures.html#preview",
     "title": "A Cross-Cultural Analysis of Early Prelinguistic Gesture Development and Its Relationship to Language Development",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 1620 Columns: 11\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (5): dyad, background, task, gesture, pro_rata\ndbl (6): months, count_raw, count, ct_raw, ct, id\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/berzak2025/fix-dur.html",
@@ -256,7 +214,7 @@
     "href": "data/berzak2025/fix-dur.html#preview",
     "title": "Fixation durations from eye-tracking data (subset)",
     "section": "3 Preview",
-    "text": "3 Preview\n\n\nRows: 7519 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (1): participant_id\ndbl (4): trial_index, article_batch, CURRENT_FIX_DURATION, word_length\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "3 Preview"
   },
   {
     "objectID": "data/brentari2024/verb_org.html",
@@ -277,7 +235,7 @@
     "href": "data/brentari2024/verb_org.html#preview",
     "title": "The organization of verb meaning in Lengua de Señas Nicaragüense (LSN): Sequential or simultaneous structures?",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 630 Columns: 6\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (5): Group, Object, Number, Agency, Num_Predicates\ndbl (1): Participant\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/coretta2018/formants.html",
@@ -298,7 +256,7 @@
     "href": "data/coretta2018/formants.html#preview",
     "title": "Formant trajectories in Italian and Polish",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 12006 Columns: 21\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (15): speaker, file, word, language, gender, glottocode, ipa, c1, c1_pho...\ndbl  (6): time, f1, f2, f3, f0, item\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/coretta2018/ultrasound.html",
@@ -326,7 +284,7 @@
     "href": "data/coretta2018/ultrasound.html#preview",
     "title": "Ultrasound tongue imaging data of Italian and Polish speakers",
     "section": "3 Preview",
-    "text": "3 Preview\n\n\nRows: 509 Columns: 1\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (1): it01   1.5850  29/11/2016 15:10:47 Dico pugu lentamente    closure_    72.94...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "3 Preview"
   },
   {
     "objectID": "data/coretta2021/alb_formants.html",
@@ -368,7 +326,7 @@
     "href": "data/egurtzegi2020/eu_vot.html#preview",
     "title": "Mixean Basque Voice Onset Time",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 1801 Columns: 9\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (6): speaker, word, phone, prev, post, voicing\ndbl (3): start, end, VOT\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/koppensteiner2016/takete_maluma.html",
@@ -389,7 +347,7 @@
     "href": "data/koppensteiner2016/takete_maluma.html#preview",
     "title": "Shaking Takete and Flowing Maluma. Non-Sense Words Are Associated with Motion Patterns",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 460 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \"\\t\"\nchr (3): Tak_Mal_Stim, Answer, Rater\ndbl (2): Corr_1_Wrong_0, Female_0\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/mclaughlin2023/pupil-width.html",
@@ -410,7 +368,7 @@
     "href": "data/mclaughlin2023/pupil-width.html#preview",
     "title": "Pupillometry reveals cognitive demands of lexical competition during spoken word recognition in young and older adults (subset)",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 10588 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): Condition, Age\ndbl (3): subject, trial, pupil_max\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/pankratz2021/si.html",
@@ -431,7 +389,7 @@
     "href": "data/pankratz2021/si.html#preview",
     "title": "The role of relevance for scalar diversity",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 2006 Columns: 8\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (3): weak_adj, strong_adj, SI\ndbl (5): freq, semdist, weak_pol, bounded, extreme\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/song2020/shallow.html",
@@ -452,7 +410,7 @@
     "href": "data/song2020/shallow.html#preview",
     "title": "Second language users exhibit shallow morphological processing",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 6500 Columns: 11\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (8): Group, ID, List, Target, Critical_Filler, Word_Nonword, Relation_ty...\ndbl (3): ACC, RT, logRT\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   },
   {
     "objectID": "data/vlasicek2024/croatian-lexdes.html",
@@ -473,20 +431,6 @@
     "href": "data/vlasicek2024/croatian-lexdes.html#preview",
     "title": "Lexical decision times for nouns from the Croatian Psycholinguistic Database",
     "section": "2 Preview",
-    "text": "2 Preview\n\n\nRows: 2612 Columns: 36\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (4): word_string, word_type, word_gender, word_represents_animate\ndbl (32): word_num_letters, word_frequency, concreteness_n, concreteness_mea...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
-  },
-  {
-    "objectID": "data/winter2016/senses_valence.html",
-    "href": "data/winter2016/senses_valence.html",
-    "title": "Taste and smell words form an affectively loaded and emotionally flexible part of the English lexicon",
-    "section": "",
-    "text": "Rows: 405 Columns: 3\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): Word, Modality\ndbl (1): Val\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
-  },
-  {
-    "objectID": "data/winter2016/senses_valence.html#preview",
-    "href": "data/winter2016/senses_valence.html#preview",
-    "title": "Taste and smell words form an affectively loaded and emotionally flexible part of the English lexicon",
-    "section": "",
-    "text": "Rows: 405 Columns: 3\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): Word, Modality\ndbl (1): Val\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+    "text": "2 Preview"
   }
 ]

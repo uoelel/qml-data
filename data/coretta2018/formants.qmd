@@ -106,6 +106,7 @@ data-entry:
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/coretta2018/formants.csv")
 dat
 ```

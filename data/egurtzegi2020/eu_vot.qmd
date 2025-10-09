@@ -61,6 +61,7 @@ data-entry:
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/egurtzegi2020/eu_vot.csv")
 dat
 ```

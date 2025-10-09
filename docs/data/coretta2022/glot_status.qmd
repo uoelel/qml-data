@@ -84,6 +84,7 @@ url: "https://osf.io/vry3h/"
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readRDS("data/coretta2022/glot_status.rds")
 dat
 ```

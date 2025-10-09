@@ -13,6 +13,7 @@ abstract: |
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/winter2016/senses_valence.csv")
 dat
 ```

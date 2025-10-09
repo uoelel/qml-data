@@ -52,6 +52,7 @@ data-entry:
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/coretta2021/alb-vot.csv")
 dat
 ```

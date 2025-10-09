@@ -91,6 +91,7 @@ The remaining columns are the X and Y coordinates of the spline along the 42 fan
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/coretta2018/ultrasound/it01-tongue-cart.tsv")
 dat
 ```

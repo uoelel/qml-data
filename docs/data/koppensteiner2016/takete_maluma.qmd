@@ -39,6 +39,7 @@ abstract: |
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_delim("data/koppensteiner2016/takete_maluma.txt")
 dat
 ```

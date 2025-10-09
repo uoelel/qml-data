@@ -55,6 +55,7 @@ data-entry:
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/brentari2024/verb_org.csv")
 dat
 ```

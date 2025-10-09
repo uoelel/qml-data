@@ -89,6 +89,7 @@ data-entry:
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/vlasicek2024/croatian-lexdes.csv")
 dat
 ```

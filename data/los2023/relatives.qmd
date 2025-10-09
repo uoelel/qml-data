@@ -10,6 +10,7 @@ languages: "Old English"
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readxl::read_excel("data/los2023/relatives.xlsx")
 dat
 ```

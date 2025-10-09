@@ -60,6 +60,7 @@ The data contains only trials from the Japanese participants.
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/ota2009/key-rock.csv")
 dat
 ```

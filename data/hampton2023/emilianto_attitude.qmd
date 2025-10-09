@@ -28,6 +28,7 @@ data-entry:
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readRDS("data/hampton2023/emilianto_attitude.rds")
 dat
 ```

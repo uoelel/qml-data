@@ -112,6 +112,7 @@ data-entry:
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readRDS("data/coretta2021/alb_formants.rds")
 dat
 ```

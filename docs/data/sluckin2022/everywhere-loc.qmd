@@ -17,6 +17,7 @@ Manuscript: \<<https://lingbuzz.net/lingbuzz/006708#:~:text=%27Everywhere%20here
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/sluckin2022/everywhere-loc.csv")
 dat
 ```

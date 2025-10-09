@@ -44,6 +44,7 @@ description: |
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readRDS("data/tucker2019/mald_1_1.rds")
 dat
 ```

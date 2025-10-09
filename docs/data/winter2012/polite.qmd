@@ -121,6 +121,7 @@ abstract: |
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/winter2012/polite.csv")
 dat
 ```

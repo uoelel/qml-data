@@ -61,6 +61,7 @@ abstract: |
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/song2020/shallow.csv")
 dat
 ```

@@ -50,6 +50,7 @@ abstract: |
 
 ```{r}
 #| label: dat
+#| message: false
 dat <- readr::read_csv("data/pankratz2021/si.csv")
 dat
 ```
