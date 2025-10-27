@@ -396,14 +396,14 @@
     "href": "data/song2020/shallow.html",
     "title": "Second language users exhibit shallow morphological processing",
     "section": "",
-    "text": "Group\n\nParticipant group (L1, L2).\n\nID\n\nSubject unique identifier.\n\nList\n\nWord list.\n\nTarget\n\nTarget word.\n\nRT\n\nReaction time (ms).\n\nRT_log\n\nLogged reaction time.\n\nCritical_Filler\n\nWhether the trial is a critical or a filler trial.\n\nWord_Nonword\n\nWhether the word is a real word or a nonce word (only word is present in the data).\n\nRelation_type\n\nWhether the relation type is Unrelated, Constituent, or NonConstituent.\n\nBranching\n\nWhether the trial word is Left-branching or Right-branching."
+    "text": "Group\n\nParticipant group (L1, L2).\n\nID\n\nSubject unique identifier.\n\nList\n\nWord list.\n\nTarget\n\nTarget word.\n\nACC\n\nResponse accuracy (0 incorrect, 1 correct).\n\nRT\n\nReaction time (ms).\n\nRT_log\n\nLogged reaction time.\n\nCritical_Filler\n\nWhether the trial is a critical or a filler trial.\n\nWord_Nonword\n\nWhether the word is a real word or a nonce word (only word is present in the data).\n\nRelation_type\n\nWhether the relation type is Unrelated, Constituent, or NonConstituent.\n\nBranching\n\nWhether the trial word is Left-branching or Right-branching."
   },
   {
     "objectID": "data/song2020/shallow.html#description",
     "href": "data/song2020/shallow.html#description",
     "title": "Second language users exhibit shallow morphological processing",
     "section": "",
-    "text": "Group\n\nParticipant group (L1, L2).\n\nID\n\nSubject unique identifier.\n\nList\n\nWord list.\n\nTarget\n\nTarget word.\n\nRT\n\nReaction time (ms).\n\nRT_log\n\nLogged reaction time.\n\nCritical_Filler\n\nWhether the trial is a critical or a filler trial.\n\nWord_Nonword\n\nWhether the word is a real word or a nonce word (only word is present in the data).\n\nRelation_type\n\nWhether the relation type is Unrelated, Constituent, or NonConstituent.\n\nBranching\n\nWhether the trial word is Left-branching or Right-branching."
+    "text": "Group\n\nParticipant group (L1, L2).\n\nID\n\nSubject unique identifier.\n\nList\n\nWord list.\n\nTarget\n\nTarget word.\n\nACC\n\nResponse accuracy (0 incorrect, 1 correct).\n\nRT\n\nReaction time (ms).\n\nRT_log\n\nLogged reaction time.\n\nCritical_Filler\n\nWhether the trial is a critical or a filler trial.\n\nWord_Nonword\n\nWhether the word is a real word or a nonce word (only word is present in the data).\n\nRelation_type\n\nWhether the relation type is Unrelated, Constituent, or NonConstituent.\n\nBranching\n\nWhether the trial word is Left-branching or Right-branching."
   },
   {
     "objectID": "data/song2020/shallow.html#preview",

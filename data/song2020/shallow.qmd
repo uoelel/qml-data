@@ -33,6 +33,10 @@ abstract: |
 
 :   Target word.
 
+`ACC`
+
+:   Response accuracy (`0` incorrect, `1` correct).
+
 `RT`
 
 :   Reaction time (ms).
