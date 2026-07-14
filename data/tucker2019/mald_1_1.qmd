@@ -28,6 +28,10 @@ description: |
 
 :   Mean phoneme-level Levenshtein distance.
 
+`FreqSUBTLEX`
+
+:   Word frequency from the SUBTLEX corpus.
+
 `RT`
 
 :   Reaction times (ms).

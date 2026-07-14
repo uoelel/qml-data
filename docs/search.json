@@ -32,14 +32,14 @@
     "href": "data/tucker2019/mald_1_1.html",
     "title": "Massive Auditory Lexical Decision 1.1",
     "section": "",
-    "text": "Subject\n\nSubject unique identifier.\n\nItem\n\nWord.\n\nIsWord\n\nWhether it is a real word or a nonce word.\n\nPhonLev\n\nMean phoneme-level Levenshtein distance.\n\nRT\n\nReaction times (ms).\n\nACC\n\nAccuracy of lexical decision.\n\nRT_log\n\nLogged reaction times."
+    "text": "Subject\n\nSubject unique identifier.\n\nItem\n\nWord.\n\nIsWord\n\nWhether it is a real word or a nonce word.\n\nPhonLev\n\nMean phoneme-level Levenshtein distance.\n\nFreqSUBTLEX\n\nWord frequency from the SUBTLEX corpus.\n\nRT\n\nReaction times (ms).\n\nACC\n\nAccuracy of lexical decision.\n\nRT_log\n\nLogged reaction times."
   },
   {
     "objectID": "data/tucker2019/mald_1_1.html#variables",
     "href": "data/tucker2019/mald_1_1.html#variables",
     "title": "Massive Auditory Lexical Decision 1.1",
     "section": "",
-    "text": "Subject\n\nSubject unique identifier.\n\nItem\n\nWord.\n\nIsWord\n\nWhether it is a real word or a nonce word.\n\nPhonLev\n\nMean phoneme-level Levenshtein distance.\n\nRT\n\nReaction times (ms).\n\nACC\n\nAccuracy of lexical decision.\n\nRT_log\n\nLogged reaction times."
+    "text": "Subject\n\nSubject unique identifier.\n\nItem\n\nWord.\n\nIsWord\n\nWhether it is a real word or a nonce word.\n\nPhonLev\n\nMean phoneme-level Levenshtein distance.\n\nFreqSUBTLEX\n\nWord frequency from the SUBTLEX corpus.\n\nRT\n\nReaction times (ms).\n\nACC\n\nAccuracy of lexical decision.\n\nRT_log\n\nLogged reaction times."
   },
   {
     "objectID": "data/tucker2019/mald_1_1.html#preview",
