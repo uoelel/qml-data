@@ -232,7 +232,7 @@ subj <- sample(unique(dat$Subject), 50)
 
 mald_1_1 <- dat |>
   filter(Subject %in% subj, RT > 0) |>
-  select(Subject, Item, IsWord, PhonLev, RT, ACC) |>
+  select(Subject, Item, IsWord, PhonLev, FreqSUBTLEX, RT, ACC) |>
   mutate(
     IsWord = factor(IsWord, levels = c("TRUE", "FALSE")),
     ACC = ifelse(ACC, "correct", "incorrect"),
