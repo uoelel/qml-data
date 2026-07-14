@@ -94,7 +94,7 @@ abstract: |
 
 `backness`
 
-:   Backness of the vowel (`back`, `central`, \`front).
+:   Backness of the vowel (`back`, `central`, `front`).
 
 `height`
 
